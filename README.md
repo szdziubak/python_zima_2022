@@ -27,6 +27,7 @@ Materiały do zajęć z pythona
 
 #### Biblioteki dodatkowe
 5.1 Biblioteka math\
+6. Praca z terminalem (opcjonalnie)\
 6.1 Mierzenie czasu wykonywania kodu (opcjonalnie)\
 7.Daty i czas (opcjonalnie)\
 13.SQL alchemy (opcjonalnie)\
