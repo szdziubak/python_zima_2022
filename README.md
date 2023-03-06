@@ -14,6 +14,7 @@ Materiały do zajęć z pythona
 4.pętle, instrukcje warunkowe\
 5.Dekompozycja, tworzenie funkcji\
 5.Dekompozycja, tworzenie funkcji R (opcjonalnie)\
+5.Nazewnictwo (opcjonalnie)
 6.Dane wejściowe, rekursja, obsluga plikow
 
 #### Programowanie obiektowe
