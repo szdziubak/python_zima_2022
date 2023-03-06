@@ -29,4 +29,4 @@ del "python_zima_2022\\5. Plik do formatowania kopia.py"; cp "python_zima_2022\\
 python -m black -l 80 -S "python_zima_2022\\5. Plik do formatowania kopia.py" #-S oznacza nieformatowanie apostrofów/znaków cytowania 
 del "python_zima_2022\\5. Plik do formatowania kopia.py"; cp "python_zima_2022\\5. Plik do formatowania.py" "python_zima_2022\\5. Plik do formatowania kopia.py"
 python -m black -l 80 --diff "python_zima_2022\\5. Plik do formatowania kopia.py" #--diff pokazuje zmiany które może dokonać
-python -m black -l 30 "python_zima_2022\\5. Plik do formatowania częsciowego kopia.py" # dzięki fmt:on i fmt:off zformatowano część pliku 
+python -m black -l 30 "python_zima_2022\\5. Plik do formatowania czesciowego kopia.py" # dzięki fmt:on i fmt:off zformatowano część pliku 
