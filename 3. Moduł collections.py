@@ -71,3 +71,10 @@ class NowyTekst(UserString):
         return s.split(delimiter)
 tekst = NowyTekst('Jakiś testowy tekst')
 tekst.delimite(tekst, ' ')
+
+#defaultdict - tworzenie słownika z wartościami domyślnymi
+from collections import defaultdict
+auta = defaultdict(str)
+auta['Renault'] #nie istnieje więc wyświetla pusty ciąg tekstowy
+auta['Citroen'] = 'Francja'
+print(auta)
