@@ -15,6 +15,7 @@ Materiały do zajęć z pythona
 5.Dekompozycja, tworzenie funkcji\
 5.Dekompozycja, tworzenie funkcji R (opcjonalnie)\
 5.Nazewnictwo (opcjonalnie)
+5.Praktyki pisania kodu w Pythonie.py
 6.Dane wejściowe, rekursja, obsluga plikow
 
 #### Programowanie obiektowe
