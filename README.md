@@ -3,19 +3,13 @@ Materiały do zajęć z pythona
 
 #### Wprowadzenie do zajęć
 1.Wprowadzenie\
-1.Wprowadzenie R (opcjonalne)
 
 #### Podstawy pythona
 2.Podstawy pyhona\
 3.listy cd., krotki, słowniki, zbiory\
 3.generator haseł.py\
-3.listy cd., krotki, słowniki, zbiory R (opcjonalne)\
-3.Moduł collections (opcjonalnie)\
 4.pętle, instrukcje warunkowe\
 5.Dekompozycja, tworzenie funkcji\
-5.Dekompozycja, tworzenie funkcji R (opcjonalnie)\
-5.Nazewnictwo (opcjonalnie)
-5.Praktyki pisania kodu w Pythonie.py
 6.Dane wejściowe, rekursja, obsluga plikow
 
 #### Programowanie obiektowe
@@ -36,3 +30,12 @@ Materiały do zajęć z pythona
 13.1 Python i bazy danych (opcjonalnie)\
 14.Web scrapping (opcjonalnie)\
 14.1 Praca z API (opcjonalnie)
+
+### Programowanie dla sredniozaawansowanych
+1.Wprowadzenie R (opcjonalne)
+3.listy cd., krotki, słowniki, zbiory R (opcjonalne)\
+3.Moduł collections (opcjonalnie)\
+5.Dekompozycja, tworzenie funkcji R (opcjonalnie)\
+5.Nazewnictwo (opcjonalnie)\
+5.Praktyki pisania kodu w Pythonie (opcjonalnie)\
+5.Terminologia w pythonie (opcjonalnie)\
