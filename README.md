@@ -10,7 +10,9 @@ Materiały do zajęć z pythona
 3.generator haseł.py\
 4.pętle, instrukcje warunkowe\
 5.Dekompozycja, tworzenie funkcji\
+5.1 Biblioteka math\
 6.Dane wejściowe, rekursja, obsluga plikow
+7.Daty i czas\
 
 #### Programowanie obiektowe
 8.Wstęp do programowania obiektowego\
@@ -22,20 +24,19 @@ Materiały do zajęć z pythona
 12.Wizualizacja danych
 
 #### Biblioteki dodatkowe
-5.1 Biblioteka math\
-6. Praca z terminalem (opcjonalnie)\
-6.1 Mierzenie czasu wykonywania kodu (opcjonalnie)\
-7.Daty i czas (opcjonalnie)\
-13.SQL alchemy (opcjonalnie)\
-13.1 Python i bazy danych (opcjonalnie)\
-14.Web scrapping (opcjonalnie)\
-14.1 Praca z API (opcjonalnie)
+6. Praca z terminalem\
+6.1 Mierzenie czasu wykonywania kodu\
+13.SQL alchemy\
+13.1 Python i bazy danych\
+14.Web scrapping\
+14.1 Praca z API
 
 ### Programowanie dla sredniozaawansowanych
-1.Wprowadzenie R (opcjonalne)
-3.listy cd., krotki, słowniki, zbiory R (opcjonalne)\
-3.Moduł collections (opcjonalnie)\
-5.Dekompozycja, tworzenie funkcji R (opcjonalnie)\
-5.Nazewnictwo (opcjonalnie)\
-5.Praktyki pisania kodu w Pythonie (opcjonalnie)\
-5.Terminologia w pythonie (opcjonalnie)\
+1.Wprowadzenie R
+3.listy cd., krotki, słowniki, zbiory R\
+3.Moduł collections\
+5.Dekompozycja, tworzenie funkcji R\
+5.Nazewnictwo\
+5.Praktyki pisania kodu w Pythonie\
+5.Terminologia w pythonie\
+5.Formatowanie kodu\
