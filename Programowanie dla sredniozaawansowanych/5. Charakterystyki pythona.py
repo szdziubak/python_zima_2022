@@ -61,10 +61,44 @@ print(lista_2)
 # Konkatencja może być kosztowna obliczeniowo
 import time
 
+string = ''
+start = time.time()
+for i in range(10000):
+    string += 'aaa ' #obiekt jest każdorazowo nadpisywany, bo iest inmutable
+stop = time.time()
+print(f"Minęło {stop-start} sekund")
+
+    #to będzie działało szybciej
+lista = []
+for i in range(10000):
+    lista.append('aaa ')
+string = ''.join(lista) 
 
 # Sortowanie funkcji sort jest nieintuicyjne bo wykorzystuje standard ASCII
+lista = ['A', 'C', 'f', 'a']
+lista.sort()
+print(lista) #sortuje najpierw duże a potem małe litery
+ord('a') #97
+ord('A') #65 #najpierw w kolejności jest 'A' a potem 'a'
+chr(65) #65-te w kolejnosci jest 'A'
+lista.sort(key = str.lower) #sortuje traktując wszystkie litery jak małe
+lista.sort(key = str.upper) #sortuje traktując wszystkie litery jak wielkie
+print(lista)
 
 # Liczby zmiennoprzecinkowe mogą być niedokładne
+0.2*6 # 1.2000000000000002
+1.1+1.1+1.1 # 3.3000000000000003
+    #Liczby trzeba tłumaczyć na ciąg liczb binarnych - 1 i 0. Błędy zaokrąglenia powodują niewielkie różnice pomiędzy liczbami np 1.2 != 0.2*6
+    #Maksymalna wartość liczbowa przechowywana przez pythona to 2^53, wartości powyżej będą równe 2^53
+import decimal #pozwala na dokładniejszą prace z liczbami zmiennoprzecinkowymi
+liczba = decimal.Decimal(0.2) #niedokładne jak float
+liczba_z_tekstu = decimal.Decimal('0.2') #dokładne
+liczba*6
+liczba_z_tekstu*6
 
-# Operatory nierówności działają nieintuicyjnie
-
+# Operatory nierówności działają nieintuicyjnie - najlepiej używać nawiasy i AND/OR
+zmienna1 = 'a'
+zmienna2 = 'b'
+zmienna3 = 'c'
+zmienna1 != zmienna2 != zmienna3 # To jest ok
+zmienna1 != zmienna2 != zmienna1 #działa to jak (zmienna1 != zmienna2) AND (zmienna2 != zmienna3)
