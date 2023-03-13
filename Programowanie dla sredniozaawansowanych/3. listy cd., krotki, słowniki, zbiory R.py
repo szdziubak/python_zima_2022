@@ -30,7 +30,7 @@ slownik3['g'] #ChainMap tworzy powiązane słowniki
 
 #Typy generyczne - definiowane są typy danych które powinny być użyte w funkcjach
 from typing import Any
-def calculate_new_price(products: dict, increase: int) -> Any: #products powinien byc slownikiem, increase liczbą a funkcja może zwracać cokolwiek
+def calculate_new_price(products: dict, increase: int) -> Any: #products powinien byc slownikiem, increase liczbą a funkcja może zwracać cokolwiek, jezeli byloby -> None to nie zwracaloby nic
     for k,v in products.items():
         products[k] = v*(1+increase)
     return products
