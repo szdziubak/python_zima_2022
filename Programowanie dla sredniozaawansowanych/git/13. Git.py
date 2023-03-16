@@ -2,9 +2,6 @@
 Tworzenie pustego repozytorium bazując na template.
 Cookiecutter to narzedzie służące do tworzenia repozytoriów.
 """
-from telnetlib import STATUS
-
-
 pip install cookiecutter
 cd "Programowanie dla sredniozaawansowanych\git"
 
