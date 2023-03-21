@@ -1,5 +1,5 @@
 import sys
-pola =[' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ']
+pola = ['0', '1', '2', '3', '4', '5', '6', '7', '8']
 gracz_X = 'X'
 gracz_O = 'O'
 plansza_pusta = f"""
@@ -20,15 +20,15 @@ def rysuj_plansze_wypelniana(pola = pola):
     return plansza_wypelniona
 
 def sprawdz_rezultaty(pola = pola, gracz_X = gracz_X, gracz_O = gracz_O):
-    if pola[0] == pola[1] == pola[2] and pola[0] != ' ':
+    if pola[0] == pola[1] == pola[2] and pola[0] not in ['0', '1', '2', '3', '4', '5', '6', '7', '8']:
         znak_zwycieski = pola[0]
-    elif pola[3] == pola[4] == pola[5] and pola[3] != ' ':
+    elif pola[3] == pola[4] == pola[5] and pola[3] not in ['0', '1', '2', '3', '4', '5', '6', '7', '8']:
         znak_zwycieski = pola[3]
-    elif pola[6] == pola[7] == pola[8] and pola[6] != ' ':
+    elif pola[6] == pola[7] == pola[8] and pola[6] not in ['0', '1', '2', '3', '4', '5', '6', '7', '8']:
         znak_zwycieski = pola[6]
-    elif pola[0] == pola[4] == pola[8] and pola[0] != ' ':
+    elif pola[0] == pola[4] == pola[8] and pola[0] not in ['0', '1', '2', '3', '4', '5', '6', '7', '8']:
         znak_zwycieski = pola[0]
-    elif pola[2] == pola[4] == pola[6] and pola[2] != ' ':
+    elif pola[2] == pola[4] == pola[6] and pola[2] not in ['0', '1', '2', '3', '4', '5', '6', '7', '8']:
         znak_zwycieski = pola[2]
     else:
         znak_zwycieski = None
@@ -46,7 +46,7 @@ def dodaj_ruch(pole, aktualny_gracz = None, pola = pola, gracz_X = gracz_X, grac
         aktualny_gracz = gracz_O
     else:
         aktualny_gracz = gracz_X
-    if ' ' not in pola:
+    if len(set(['0', '1', '2', '3', '4', '5', '6', '7', '8']) & set(pola))==0:
         print("Remis!!!")
         sys.exit()
     print(f"Pora na gracza {aktualny_gracz}")
@@ -85,4 +85,7 @@ def main(pola = pola, gracz_X = gracz_X, gracz_O = gracz_O, plansza_pusta = plan
             sys.exit()
         
 
-main()
+if __name__ == "__main__":
+    main()
+
+# TODO: obsluga bledow - index is out of range kiedy dodaje sie pole poza zakresem
